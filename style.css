@@ -1,0 +1,10 @@
+.flex-container {
+    display: flex;
+    background-color: #1F2937;
+    color: #f9faf8;
+    font-family: roboto;
+    font-weight: bold;
+}
+.flex-div {
+    border: 4px solid brown;
+}
