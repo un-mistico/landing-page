@@ -1,10 +1,100 @@
-.flex-container {
+
+/*general PAGE style here */
+
+img {
+    max-width: 500px;
+    height: auto;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
+
+/*HEADER style here */
+
+.header {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #1F2937;
     color: #f9faf8;
-    font-family: roboto;
     font-weight: bold;
+    padding: 10px 20px;
 }
-.flex-div {
-    border: 4px solid brown;
+
+.header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+    display: flex;
+    flex: 2;
+    justify-content:center;
+    align-items: center;
 }
+
+.header-link {
+    font-size: 18px;
+    color: #E5E7Eb;
+    display: flex;
+    flex: 1;
+    justify-content:flex-start;
+    font-weight: lighter;
+}
+
+/*HERO style here */
+.s1-HERO {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 40px;
+}
+
+/*HERO LEFT containter style here */
+
+.s1-left-container {
+    flex:1;
+    max-width: 600px;
+    padding: 40px;
+
+}
+
+.s1-left-container h1 {
+    font-size: 48;
+    font-weight: extra-bold;
+    color: #f9faf8;
+  }  
+
+
+.s1-left-container p {
+    font-size: 18;
+    color: #E5E7EB;
+  }  
+
+  .s1-left-container button {
+    font-size: 18;
+    font-weight: bold;
+    color: #E5E7EB;
+    background-color: #3882F6;
+    display: inline-block;
+    padding: 8px 30px;
+    border-radius: 4px;
+    border: none;
+  }  
+
+/*HERO RIGHT containter style here */
+
+.s1-right-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .s1-right-container img {
+    width: 100%; /* Make sure the image doesn't exceed its container */
+    height: 100%; /* Maintain aspect ratio */
+    border-radius: 5px; /* Add rounded corners as needed */
+    object-fit: cover;
+    border-radius: 5px;
+  }
