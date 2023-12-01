@@ -94,7 +94,140 @@ body {
   .s1-right-container img {
     width: 100%; /* Make sure the image doesn't exceed its container */
     height: 100%; /* Maintain aspect ratio */
-    border-radius: 5px; /* Add rounded corners as needed */
+    border-radius: 0px; /* Add rounded corners as needed */
     object-fit: cover;
-    border-radius: 5px;
   }
+
+/*s2-CARDS section starts here*/
+
+/* Center the h2 text */
+.s2-CARDS .heading-container {
+  text-align: center;
+  margin: 20px; /* Adjust the margin between h2 and cards as needed */
+}
+
+.s2-CARDS h2 {
+  margin: 0; /* Remove default margin from h2 */
+}
+
+/* Style for the card section */
+.s2-CARDS {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+}
+
+/* Style for the container of individual cards */
+.s2-CARDS .cards-container {
+  display: flex;
+  justify-content: space-around; /* Adjust as needed for the space between cards */
+  flex-wrap: nowrap; /* Allow cards to wrap to the next line if the space is insufficient */
+  margin: 10px;
+}
+
+/* Style for individual cards */
+.s2-CARDS .card {
+  width: 150px; /* Adjust the width of each card as needed */
+  margin: 0 15px; /* Increase the margin for more spacing between cards */
+  text-align: center;
+}
+
+/* Style for the card images */
+.s2-CARDS .card img {
+  width: 100%; /* Reduce the size of the image by 20% */
+  max-width: 100%; /* Ensure images don't exceed their container */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Add rounded corners as needed */
+}
+
+/* Style for the subtext under the cards */
+.s2-CARDS .card p {
+  margin-top: 10px; /* Adjust the margin between image and subtext */
+  font-size: 18;
+  color: #1F2937;
+}
+
+/* s3-QUOTE section starts here--> */
+
+/* Style for the quote section */
+.s3-QUOTE {
+  text-align: left;
+  background-color: #E5E7EB; /* Set the background color for the entire section */
+  padding: 60px; /* Add padding for better visual appeal, adjust as needed */
+}
+
+/* Style for the inspiring quote text */
+.s3-QUOTE p:first-child {
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  color: #1F2937;
+  margin-bottom: 10px; /* Adjust the margin as needed */
+}
+
+/* Style for the author text */
+.s3-QUOTE p:last-child {
+  font-size: 24px;
+  font-weight: bold;
+  color: #1F2937;
+  text-align: right;
+  margin-top: 0; /* Remove default top margin for clean alignment */
+}
+
+/* s4-CTA section starts here--> */
+
+/* Style for the call-to-action section */
+.s4-CTA {
+  background-color: #3882F6;
+  color: #F9FAF8;
+  border-radius: 15px;
+  padding: 40px; /* Adjust the padding as needed */
+  margin: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Style for the left column (h2 and p) */
+.s4-CTA .left-column {
+  max-width: 70%; /* Adjust the max-width as needed */
+}
+
+/* Style for the h2 and p */
+.s4-CTA h2,
+.s4-CTA p {
+  margin: 0; /* Remove default margin for cleaner styling */
+}
+
+/* Style for the right column (button) */
+.s4-CTA .right-column {
+  display: flex;
+  align-items: flex-end;
+}
+
+/* Style for the button */
+.s4-CTA button {
+  background-color: transparent;
+  border: 2px solid #F9FAF8;
+  border-radius: 10px;
+  color: #F9FAF8;
+  padding: 10px 15px; /* Adjust padding as needed */
+  cursor: pointer;
+}
+
+/* .FOOTER section starts here--> */
+
+/* Style for the footer section */
+.FOOTER {
+  background-color: #1F2937;
+  color: #E5E7EB;
+  text-align: center;
+  padding: 20px; /* Adjust the padding as needed */
+}
+
+/* Style for the copyright text */
+.FOOTER p {
+  margin: 0; /* Remove default margin for cleaner styling */
+  font-size: 18px;
+}
